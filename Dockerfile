@@ -6,15 +6,15 @@ COPY package*.json ./
 
 RUN npm install
 
-RUN cd dist && ls
-
 COPY . .
 
 RUN npm run build
 
+RUN cd dist && ls
+
 # Stage 2
 FROM nginx:1.13.12-alpine
 
-COPY --from=node /usr/src/app/dist/angular.realworld.io /usr/share/nginx/html
+COPY --from=node /usr/src/app/dist /usr/share/nginx/html
 
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf

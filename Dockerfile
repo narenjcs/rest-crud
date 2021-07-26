@@ -6,11 +6,11 @@ COPY package*.json ./
 
 RUN npm install
 
-RUN cd dist && ls
-
 COPY . .
 
 RUN npm run build
+
+RUN cd dist && ls
 
 # Stage 2
 FROM nginx:1.13.12-alpine

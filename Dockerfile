@@ -1,3 +1,5 @@
+ARG VERSION
+
 FROM node:current-alpine3.14 as node
 
 WORKDIR /usr/src/app
@@ -10,7 +12,6 @@ COPY . .
 
 RUN npm run build
 
-RUN cd dist && ls
 
 # Stage 2
 FROM nginx:1.13.12-alpine

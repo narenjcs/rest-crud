@@ -10,5 +10,5 @@ steps:
     path: $(npm_config_cache)
   displayName: Cache npm
 - script: ls
-- script: npm ci
+- script: npm i
 - script: ls -l $(Pipeline.Workspace)/.npm

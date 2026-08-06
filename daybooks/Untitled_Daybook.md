@@ -33,7 +33,7 @@ snapshots:
   cell_ids:
   - cell-1
   codes:
-  - echo "New Daybook Initialized Untitled_Daybook 2"
+  - echo "New Daybook Initialized Untitled_Daybook 2 "
   names:
   - Initialization
   descriptions:
@@ -41,9 +41,16 @@ snapshots:
   languages:
   - shell
   outputs:
-  - null
+  - mimetype: text/plain
+    data: 'New Daybook Initialized Untitled_Daybook 2
+
+      '
+    channel: stdout
+    timestamp: 1786018840.8522372
+    metadata: null
+    traceback: null
   status:
-  - idle
+  - success
 ---
 
 # Untitled_Daybook.md
@@ -52,5 +59,5 @@ snapshots:
 
 ### Initialization (`shell`)
 ```shell id="cell-1"
-echo "New Daybook Initialized Untitled_Daybook 2"
+echo "New Daybook Initialized Untitled_Daybook 2 "
 ```

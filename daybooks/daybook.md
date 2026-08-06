@@ -7,6 +7,11 @@ configs:
     hide_output: false
     disabled: false
     shell_subtype: general
+  CPKd:
+    hide_code: false
+    hide_output: false
+    disabled: false
+    shell_subtype: general
 daybook_config:
   shell_executor: local
 snapshots:
@@ -244,6 +249,37 @@ snapshots:
     traceback: null
   status:
   - success
+- id: v_1786021107733
+  timestamp: 1786021107.733258
+  pinned: false
+  cell_ids:
+  - cell-1
+  - CPKd
+  codes:
+  - echo "New Daybook Initialized"
+  - ''
+  names:
+  - Initialization
+  - cell
+  descriptions:
+  - ''
+  - ''
+  languages:
+  - shell
+  - python
+  outputs:
+  - mimetype: text/plain
+    data: 'daybook.md
+
+      '
+    channel: stdout
+    timestamp: 1786017568.5815163
+    metadata: null
+    traceback: null
+  - null
+  status:
+  - success
+  - idle
 ---
 
 # daybook.md
@@ -253,4 +289,9 @@ snapshots:
 ### Initialization (`shell`)
 ```shell id="cell-1"
 echo "New Daybook Initialized"
+```
+
+### cell (`python`)
+```python id="CPKd"
+
 ```

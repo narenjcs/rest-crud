@@ -257,7 +257,7 @@ snapshots:
   - CPKd
   codes:
   - echo "New Daybook Initialized"
-  - print("checl")
+  - print("chec")
   names:
   - Initialization
   - cell
@@ -293,5 +293,5 @@ echo "New Daybook Initialized"
 
 ### cell (`python`)
 ```python id="CPKd"
-print("checl")
+print("chec")
 ```

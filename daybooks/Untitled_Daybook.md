@@ -33,7 +33,7 @@ snapshots:
   cell_ids:
   - cell-1
   codes:
-  - echo "New Daybook Initialized Untitled_Daybook "
+  - echo "New Daybook Initialized Untitled_Daybook 2"
   names:
   - Initialization
   descriptions:
@@ -52,5 +52,5 @@ snapshots:
 
 ### Initialization (`shell`)
 ```shell id="cell-1"
-echo "New Daybook Initialized Untitled_Daybook "
+echo "New Daybook Initialized Untitled_Daybook 2"
 ```

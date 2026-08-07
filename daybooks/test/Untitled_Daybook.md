@@ -1,6 +1,14 @@
 ---
 name: Untitled_Daybook.md
-description: ''
+description: Daybook
+configs:
+  CRfA:
+    hide_code: false
+    hide_output: false
+    disabled: false
+    shell_subtype: general
+daybook_config:
+  shell_executor: local
 snapshots:
 - id: v_1786082418480
   timestamp: 1786082418.4805503
@@ -11,14 +19,19 @@ snapshots:
   - echo "New Daybook Initialized"
   names:
   - Initialization
-  descriptions: []
+  descriptions:
+  - ''
   languages:
   - shell
-  outputs: []
-  status: []
+  outputs:
+  - null
+  status:
+  - idle
 ---
 
 # Untitled_Daybook.md
+
+> Daybook
 
 ### Initialization (`shell`)
 ```shell id="CRfA"
